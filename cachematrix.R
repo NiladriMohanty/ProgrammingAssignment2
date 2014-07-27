@@ -1,6 +1,6 @@
 ## It computes the inverse of a square matrix
 ## But it uses caching method
-## That means if elements of a matrix are not chaging,
+## That means if elements of a matrix are not changing,
 ## then it is not wise enough to compute inverse repeatedly (e.g. in a loop)
 ## Because it is waste of resources and time
 ## By taking the advantage of lexical scooping of R programming language,
